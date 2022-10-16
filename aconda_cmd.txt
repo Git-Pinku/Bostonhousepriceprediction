@@ -1,0 +1,59 @@
+
+//Remove The env 
+conda remove --name datascience --all
+conda remove --name even --all
+
+
+//create the env
+conda create -n your_env_name python=3.7
+
+conda create -n envds python=3.8.8
+
+python3.8.8 -m venv /E:/Data Science/Demo Projects/Bostonhousepriceprediction/envproj
+
+
+
+//this one working for creating...
+
+conda create -n envproj python=3.8.8
+
+
+To activate this environment, use
+#
+#      conda activate envproj
+#
+# To deactivate an active environment, use
+#
+#      conda deactivate
+
+
+## install
+pip install -r /E:/Data Science/Demo Projects/Bostonhousepriceprediction/requirements.txt
+
+
+conda create -n "myenv" python=3.3.0
+
+conda create -n "envproj" python=3.8.13
+
+
+For virtualenv to install all files in the requirements.txt file.
+
+   1. cd to the directory where requirements.txt is located
+   2. activate your virtualenv
+   3. run: pip install -r requirements.txt in your shell
+
+
+pip install -U --force pandas
+
+
+pip install -U --force numpy
+
+pip install -U --force seaborn
+
+pip install -U --force matplotlib
+
+pip install -U --force sklearn
+
+pip install -U --force flask
+
+conda install -c conda-forge --update-deps --force-reinstall ipykernel -y
